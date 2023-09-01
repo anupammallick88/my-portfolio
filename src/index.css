@@ -1,0 +1,39 @@
+body {
+
+  overflow-x: hidden;
+  min-height: 100vh;
+  min-width: 100vh;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* @font-face {
+  font-family: "RobotoBold";
+  src: local("RobotoBold"), url("./webfont/roboto-bold-webfont.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "PoppinsBold";
+  src: local("PoppinsBold"), url("./webfont/poppins-bold-webfont.woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: "RobotoRegular";
+  src: local("RobotoRegular"), url("./webfont/roboto-regular-webfont.woff");
+  
+}
+@font-face {
+  font-family: "OstrichsansBlack";
+  src: local("OstrichsansBlack"), url("./webfont/ostrichsans-black-webfont.woff");
+  
+} */
+
