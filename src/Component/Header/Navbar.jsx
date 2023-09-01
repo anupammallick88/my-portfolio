@@ -24,7 +24,7 @@ export default function NavBar() {
 
         <Navbar expanded={expand} fixed="top" expand="md" className={navColour ? "sticky" : "navbar"} >
             <Container>
-                <Navbar.Brand href="/">
+                <Navbar.Brand href="/my-portfolio">
                     <img src={logo} className="img-fluid logo" alt="brand" />
                 </Navbar.Brand>
                 <Navbar.Toggle
@@ -40,7 +40,7 @@ export default function NavBar() {
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto" defaultActiveKey="#home">
                         <Nav.Item>
-                            <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
+                            <Nav.Link as={Link} to="/my-portfolio" onClick={() => updateExpanded(false)}>
                                 Home
                             </Nav.Link>
 
